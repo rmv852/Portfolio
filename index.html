@@ -152,13 +152,8 @@
    event.currentTarget.classList.add("active-link");
    document.getElementById(tabname).classList.add("active-tab")
    }
-</script>
-<form name="submit-to-google-sheet">
-   <input name="email" type="email" placeholder="Email" required>
-   <button type="submit">Send</button>
- </form>
- 
- <script>
+   
+  <script>
    const scriptURL = 'https://script.google.com/macros/s/AKfycbzWfps5UpklX6rsC1abVVs66uAD7J68oultkqw-JSOakkTJV9pplFb3VyT8TY9Krrrr/exec'
    const form = document.forms['submit-to-google-sheet']
    const msg = document.getElementById("msg")
